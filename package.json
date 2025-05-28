@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Forge your ideas into reality with Claude Code - AI-powered project shaping for Claude Code",
   "bin": {
-    "claude-forge": "./bin/claude-forge.js"
+    "claude-forge": "bin/claude-forge.js"
   },
   "files": [
     "bin/",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/peteknowsai/claude-forge"
+    "url": "git+https://github.com/peteknowsai/claude-forge.git"
   },
   "bugs": {
     "url": "https://github.com/peteknowsai/claude-forge/issues"
