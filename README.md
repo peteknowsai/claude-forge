@@ -1,10 +1,10 @@
 # claude-forge
 
-> Forge your ideas into reality with Claude - AI-powered project shaping
+> Forge your ideas into reality with Claude Code - AI-powered project shaping
 
 ## What is claude-forge?
 
-A lightweight methodology that turns Claude into your complete development team. From ideation to implementation, claude-forge provides structure without the overhead.
+A lightweight methodology that turns Claude Code into your complete development team. Built specifically for Claude Code, it provides structure without the overhead, leveraging Claude Code's natural language understanding and file-aware capabilities.
 
 ## Installation
 
@@ -28,7 +28,7 @@ Creates a `.claude/` directory in your project with:
 
 ## How to use
 
-After installation, just talk to Claude naturally:
+After installation, just talk to Claude Code naturally:
 
 - "Let's forge a new project" - Start from scratch
 - "What's next?" - See where you are in the workflow

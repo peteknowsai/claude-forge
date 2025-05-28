@@ -1,6 +1,6 @@
 # Claude Forge
 
-I understand the Claude Forge methodology for building software efficiently. When you mention "forge" or ask about project workflow, I'll guide you through these phases:
+I understand the Claude Forge methodology - designed specifically for Claude Code. When you mention "forge" or ask about project workflow, I'll guide you through these phases:
 
 ## Workflow Phases
 

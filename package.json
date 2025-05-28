@@ -1,7 +1,7 @@
 {
   "name": "claude-forge",
   "version": "1.0.0",
-  "description": "Forge your ideas into reality with Claude - AI-powered project shaping",
+  "description": "Forge your ideas into reality with Claude Code - AI-powered project shaping for Claude Code",
   "bin": {
     "claude-forge": "./bin/claude-forge.js"
   },

@@ -6,7 +6,7 @@ const { version } = require('../package.json');
 
 program
   .name('claude-forge')
-  .description('Forge your ideas into reality with Claude')
+  .description('Forge your ideas into reality with Claude Code')
   .version(version);
 
 program
