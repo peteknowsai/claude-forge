@@ -1,0 +1,40 @@
+{
+  "name": "claude-forge",
+  "version": "1.0.0",
+  "description": "Forge your ideas into reality with Claude - AI-powered project shaping",
+  "bin": {
+    "claude-forge": "./bin/claude-forge.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "templates/"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "forge",
+    "shape-up",
+    "agile",
+    "ai",
+    "development",
+    "workflow"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/claude-forge"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.0.0",
+    "fs-extra": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "node bin/claude-forge.js --help"
+  }
+}
