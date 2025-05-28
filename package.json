@@ -20,12 +20,16 @@
     "development",
     "workflow"
   ],
-  "author": "Your Name",
+  "author": "Pete Millspaugh",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/claude-forge"
+    "url": "https://github.com/peteknowsai/claude-forge"
   },
+  "bugs": {
+    "url": "https://github.com/peteknowsai/claude-forge/issues"
+  },
+  "homepage": "https://github.com/peteknowsai/claude-forge#readme",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^9.0.0",
