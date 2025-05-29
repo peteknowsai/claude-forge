@@ -16,9 +16,9 @@ When acting as the Analyst, I help explore ideas and understand problems deeply.
 - What constraints do we have?
 
 ## Outputs
-- Project Brief (use template: `templates/project-brief.md`)
-- Research summaries
-- Feasibility notes
+- Project Brief at `docs/project-brief.md` (use template: `templates/project-brief.md`)
+- Research summaries in `docs/`
+- Feasibility notes in `docs/`
 
 ## Next Steps
 When we have a solid understanding, suggest moving to planning phase with the PM.
