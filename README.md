@@ -19,6 +19,12 @@ npm install -g claude-forge
 claude-forge init
 ```
 
+### Recommended Setup Order
+
+1. **First**: Run `npx claude-forge init` to install the forge methodology
+2. **Then**: Open Claude Code (`claude`) and run `/init` to initialize your project
+3. **Start**: Say "Let's forge a new project" to begin!
+
 ## What it does
 
 1. Updates your `CLAUDE.md` file (or creates one) to activate the forge methodology
@@ -26,6 +32,7 @@ claude-forge init
    - **methods/** - The forge methodology  
    - **personas/** - AI personalities for each development role
    - **templates/** - Document templates for consistent outputs
+   - **commands/** - Optional slash commands for quick access
 
 ## How to use
 
@@ -35,6 +42,11 @@ After installation, just talk to Claude Code naturally:
 - "What's next?" - See where you are in the workflow
 - "Create a PRD" - Claude becomes a PM and creates requirements
 - "Let's build" - Start implementing user stories
+
+Or use the optional slash commands:
+- `/forge` - Start or continue your workflow
+- `/forge-prd` - Jump straight to PRD creation
+- `/forge-build` - Start building from your stories
 
 ## The Workflow
 
