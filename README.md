@@ -21,10 +21,11 @@ claude-forge init
 
 ## What it does
 
-Creates a `.claude/` directory in your project with:
-- **methods/** - The forge methodology  
-- **personas/** - AI personalities for each development role
-- **templates/** - Document templates for consistent outputs
+1. Updates your `CLAUDE.md` file (or creates one) to activate the forge methodology
+2. Creates a `.claude/` directory in your project with:
+   - **methods/** - The forge methodology  
+   - **personas/** - AI personalities for each development role
+   - **templates/** - Document templates for consistent outputs
 
 ## How to use
 
