@@ -1,0 +1,34 @@
+{
+  "id": "shapeup",
+  "name": "Shape Up",
+  "displayName": "Shape Up (AI-Optimized)",
+  "description": "Shape Up methodology adapted for AI execution - shape once, execute immediately",
+  "author": "claude-forge",
+  "version": "2.0.0",
+  "settings": {
+    "documentPath": "docs/",
+    "executionMode": "ai-optimized",
+    "workflow": {
+      "phases": [
+        "shaping",
+        "betting",
+        "translating",
+        "executing"
+      ]
+    }
+  },
+  "components": {
+    "methods": ["shapeup-ai"],
+    "personas": {
+      "shared": ["architect"],
+      "custom": ["shaper", "bettor", "translator", "ai-executor"]
+    },
+    "templates": ["pitch", "execution-plan", "run-result"],
+    "commands": ["shape", "bet", "translate", "execute"]
+  },
+  "messages": {
+    "welcome": "🤖 Shape Up AI Mode Activated",
+    "startPrompt": "Let's shape a feature for AI execution",
+    "nextPrompt": "Ready to execute?"
+  }
+}

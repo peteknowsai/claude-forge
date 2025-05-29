@@ -12,9 +12,19 @@ program
 program
   .command('init')
   .description('Initialize Claude Forge in your project')
+  .option('-m, --methodology <type>', 'Choose methodology (scrum, shapeup)')
   .option('-f, --force', 'Overwrite existing files')
   .option('-q, --quiet', 'Minimal output')
+  .option('-l, --list', 'List available methodologies')
   .action(init);
+
+program
+  .command('list-methodologies')
+  .description('List all available methodologies')
+  .action(() => {
+    const { listMethodologies } = require('../lib/index');
+    listMethodologies();
+  });
 
 program.parse(process.argv);
 

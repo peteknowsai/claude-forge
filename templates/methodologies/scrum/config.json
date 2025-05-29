@@ -1,0 +1,36 @@
+{
+  "id": "scrum",
+  "name": "Scrum",
+  "displayName": "Scrum (Agile Sprint-based)",
+  "description": "Agile Scrum methodology with sprints, user stories, and regular ceremonies",
+  "author": "claude-forge",
+  "version": "1.0.0",
+  "settings": {
+    "documentPath": "docs/",
+    "defaultSprintLength": 14,
+    "workflow": {
+      "phases": [
+        "ideation",
+        "planning",
+        "architecture", 
+        "design",
+        "validation",
+        "implementation"
+      ]
+    }
+  },
+  "components": {
+    "methods": ["forge"],
+    "personas": {
+      "shared": ["dev", "architect", "ux"],
+      "custom": ["pm", "po", "analyst"]
+    },
+    "templates": ["prd", "architecture", "project-brief"],
+    "commands": ["forge", "forge-prd", "forge-build"]
+  },
+  "messages": {
+    "welcome": "🔨 Claude Forge - Scrum Methodology Activated",
+    "startPrompt": "Let's forge a new project",
+    "nextPrompt": "What's next?"
+  }
+}
